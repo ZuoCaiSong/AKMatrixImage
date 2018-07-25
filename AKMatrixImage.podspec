@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AKMatrixImage"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A compact and high performance GIF rotating player also supports random playback."
 
   # This description is used to generate tags and improve search results.
@@ -136,6 +136,6 @@ Pod::Spec.new do |s|
   s.dependency "SDWebImage"
   # s.dependency "libwebp", "~> 0.6.1"
   s.dependency "FLAnimatedImage" 
-
+  s.dependency "SDWebImage/GIF"
 
 end
