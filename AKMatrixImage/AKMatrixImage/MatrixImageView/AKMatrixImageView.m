@@ -7,7 +7,8 @@
 //
 
 #import "AKMatrixImageView.h"
-#import <NSData+ImageContentType.h>
+
+#import "NSData+ImageContentType.h"
 
 #if __has_include(<FLAnimatedImageView+WebCache.h>)
 #import <FLAnimatedImageView+WebCache.h>
