@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
                    it is a compact and high-performance GIF rotating player that also supports random playback
                    DESC
 
-  s.homepage     = "https://github.com/ZuoCaiSong/AkImageMatrix"
+  s.homepage     = "https://github.com/ZuoCaiSong/AKMatrixImage"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ZuoCaiSong/AkImageMatrix.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/ZuoCaiSong/AKMatrixImage.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  s.source_files  = "AkImageMatrix/AkImageMatrix/CoreCode/*.{h,m}"
+  s.source_files  = "AKMatrixImage/AKMatrixImage/MatrixImageView/*.{h,m}"
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
@@ -133,9 +133,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "SDWebImage", "~> 4.4.2"
+  s.dependency "SDWebImage"
   # s.dependency "libwebp", "~> 0.6.1"
-  s.dependency "FLAnimatedImage" , "~> 1.0.12"
+  s.dependency "FLAnimatedImage" 
 
 
 end

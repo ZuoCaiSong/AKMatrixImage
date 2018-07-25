@@ -85,7 +85,7 @@
 		B380610C2108804700C8B32C /* AKMatrixImage */ = {
 			isa = PBXGroup;
 			children = (
-				B38061232108805C00C8B32C /* CoreCode */,
+				B38061242108805C00C8B32C /* MatrixImageView */,
 				B380610D2108804700C8B32C /* AppDelegate.h */,
 				B380610E2108804700C8B32C /* AppDelegate.m */,
 				B38061102108804700C8B32C /* ViewController.h */,
@@ -97,14 +97,6 @@
 				B380611C2108804800C8B32C /* main.m */,
 			);
 			path = AKMatrixImage;
-			sourceTree = "<group>";
-		};
-		B38061232108805C00C8B32C /* CoreCode */ = {
-			isa = PBXGroup;
-			children = (
-				B38061242108805C00C8B32C /* MatrixImageView */,
-			);
-			path = CoreCode;
 			sourceTree = "<group>";
 		};
 		B38061242108805C00C8B32C /* MatrixImageView */ = {
