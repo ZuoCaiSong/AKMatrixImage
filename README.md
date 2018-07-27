@@ -29,9 +29,6 @@ _imageMatrixView = [[AKImageMatrixView imageMatrixViewEdge:AKEdgeMake(20, 10, 15
  
  3. 图片支持开发者开启所有动画,以及关闭所有动画, 图片在下载完成 如果有GIF会自动开启动画 
  
-
-  
-  
-
+简书地址: https://www.jianshu.com/p/fc81dc1172b4
  
  # 本人QQ: 2404225920
